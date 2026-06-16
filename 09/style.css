@@ -1,0 +1,40 @@
+body{
+    background: #d2d2c1;
+}
+
+h1{
+    text-align: center;
+}
+
+.noticia{
+    background: white;
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: 20px;
+    line-height: 24px;
+}
+
+h2{
+    color: red;
+}
+
+.imagem{
+    padding: 10px;
+    float: left;
+}
+
+p{
+    clear: both;
+    text-align: justify;
+}
+
+header{
+    background: #cccccc;
+    padding: 10px;
+}
+
+footer{
+    background: #eeeeee;
+    padding: 10px;
+}
