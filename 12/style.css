@@ -1,0 +1,71 @@
+body{
+
+    font-family: Arial, sans-serif;
+
+    background:#f2f2f2;
+
+}
+
+.box{
+
+    width:400px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+    background:white;
+
+    border:2px solid #999;
+
+    /* Compatibilidade */
+
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+
+    /* Box Sizing */
+
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+
+fieldset{
+
+    border:2px solid #0066cc;
+
+    padding:15px;
+
+}
+
+legend{
+
+    font-weight:bold;
+
+    color:#0066cc;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:8px;
+
+    margin-top:5px;
+
+    margin-bottom:10px;
+
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+
+button{
+
+    padding:10px 20px;
+
+}
