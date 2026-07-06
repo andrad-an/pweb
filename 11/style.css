@@ -1,0 +1,49 @@
+body{
+
+    font-family: Arial;
+
+    margin:40px;
+
+}
+
+h1{
+
+    color:blue;
+
+}
+
+.pessoa{
+
+    padding:10px;
+
+    margin:8px;
+
+    border:1px solid gray;
+
+    cursor:pointer;
+
+    width:220px;
+
+}
+
+
+.pessoa[data-idade="30"]{
+
+    background:yellow;
+
+    font-weight:bold;
+
+}
+
+
+
+.pessoa::after{
+
+    content:" | Idade: " attr(data-idade)
+            " | CPF: " attr(data-cpf);
+
+    color:gray;
+
+    font-size:14px;
+
+}
