@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Atividade 12</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script>
+
+function mostraValor(elemento){
+
+    var idade = elemento.getAttribute("data-idade");
+    var nome = elemento.innerHTML;
+
+    alert("Nome: " + nome + "\nIdade: " + idade);
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Lista de Pessoas</h1>
+
+<ul>
+
+<li class="pessoa"
+    data-idade="20"
+    data-cpf="111.111.111-11"
+    onclick="mostraValor(this)">
+    João
+</li>
+
+<li class="pessoa"
+    data-idade="30"
+    data-cpf="222.222.222-22"
+    onclick="mostraValor(this)">
+    Maria
+</li>
+
+<li class="pessoa"
+    data-idade="25"
+    data-cpf="333.333.333-33"
+    onclick="mostraValor(this)">
+    Carlos
+</li>
+
+<li class="pessoa"
+    data-idade="30"
+    data-cpf="444.444.444-44"
+    onclick="mostraValor(this)">
+    Ana
+</li>
+
+</ul>
+
+</body>
+
+</html>
